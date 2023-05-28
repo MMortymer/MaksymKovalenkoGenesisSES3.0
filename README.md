@@ -59,3 +59,12 @@ Description: Send an email with the current rate to all subscribed emails.
 Response:
 
     Status 200: The emails are successfully sent.
+
+#### API test with Postman
+
+![PostmanEmails]([https://imgur.com/k4HlE2L](https://imgur.com/i4pu9XN))
+
+    
+#### Testing of emails sending done using MailTrap service
+
+![MailTrap](https://imgur.com/k4HlE2L)
