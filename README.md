@@ -28,6 +28,10 @@ Response:
 
 This endpoint fetches the current BTC to UAH rate using the Coinlayer API. If the rate is available, it is returned in the response. Otherwise, an error message is returned.
 
+#### API test with Postman
+
+![PostmanEmails](PostmanRate.jpg)
+
 ### Subscribe
 
 URL: /api/subscribe
@@ -48,6 +52,10 @@ Response:
 
 This endpoint allows users to sign up with their email address to receive the current rate of BTC to UAH. The email address is checked against the existing database to avoid duplicates. If the email is already in the database, a conflict error is returned.
 
+#### API test with Postman
+
+![PostmanEmails](PostmanSubscribe.jpg)
+
 ### Send Emails
 
 URL: /api/sendEmails
@@ -62,9 +70,9 @@ Response:
 
 #### API test with Postman
 
-![PostmanEmails]([https://imgur.com/k4HlE2L](https://imgur.com/i4pu9XN))
+![PostmanEmails](PostmanEmails.jpg)
 
     
 #### Testing of emails sending done using MailTrap service
 
-![MailTrap](https://imgur.com/k4HlE2L)
+![MailTrap](MailTrap.jpg)
