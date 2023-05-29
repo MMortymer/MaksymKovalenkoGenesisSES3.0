@@ -1,5 +1,7 @@
 # Maksym Kovalenko Genesis SES 3.0 Test Case
 
+Case is done using Symfony framework of PHP language. Main logic is contained in [ApiController](https://github.com/MMortymer/MaksymKovalenkoGenesisSES3.0/blob/main/src/Controller/ApiController.php) file.
+
 ## Getting Started
 
 1. If not already done, [install Docker Compose](https://docs.docker.com/compose/install/) (v2.10+)
